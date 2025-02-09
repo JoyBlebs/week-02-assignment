@@ -1,0 +1,105 @@
+body {
+  background-color: black;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  border: px solid orange;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+button {
+  font-size: 30px;
+  font-family: serif;
+  background-color: orange;
+  border: none;
+  border-radius: 15px;
+  color: black;
+}
+
+footer {
+  position: absolute;
+  color: white;
+}
+
+.content {
+  z-index: -40;
+  height: 500px;
+  width: 100vw;
+  background-position: center;
+  background-color: black;
+  background-repeat: none;
+  position: relative;
+}
+
+.content-text {
+  font-size: 40px;
+  color: sandybrown;
+  z-index: 20;
+  position: absolute;
+  height: 300px;
+  width: 100vw;
+  background-color: rgba(255, 0, 0, 0.05);
+  border: 2px soli;
+  padding: 10px;
+  bottom: 0px;
+  left: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  padding: 10px;
+  width: 800px;
+}
+
+a {
+  color: orangered;
+  font-family: times;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+.business-name {
+  color: orangered;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.one {
+  background-image: url(https://img.freepik.com/free-photo/wooden-background-background-different-backgrounds-concept_185193-109342.jpg?uid=R186569007&ga=GA1.1.1933804741.1738066256);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: none;
+  box-shadow: 0 0 10px 0px black inset;
+  padding: 100px;
+}
+
+.two {
+  background-image: url(https://img.freepik.com/free-photo/high-angle-view-raw-vegetables-black-wooden-backdrop_23-2147944307.jpg?t=st=1739115727~exp=1739119327~hmac=a602277be3ca16bec1b9bc5caf558b7a3ff6b99648fa47f772b96bd2995e7b21&w=1380);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 5px 5px black inset;
+  padding: 100px;
+}
+
+.three {
+  background-image: url(https://img.freepik.com/free-photo/foods-flying-air-with-tomatoes-black-textured-background-side-view_176474-3768.jpg?uid=R186569007&ga=GA1.1.1933804741.1738066256&semt=ais_hybrid);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  padding: 100px;
+}
